@@ -1,0 +1,129 @@
+body {
+  font-family: 'Roboto';
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./assets/463798.jpg');
+  background-size: cover;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ebe6e6;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  ;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: bold;
+  color: #333;
+  ;
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+  height: 40px;
+}
+
+button {
+  background-color: #00B4FF;
+  color: #f5f4f4;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.todo {
+  background-color: #fafafa;
+  box-shadow: 0 0 10px #fafafa;
+  margin-bottom: 2%;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo:hover {
+  background-color: #ffffffad;
+  cursor: pointer;
+}
+
+.todo .category {
+  color: rgb(150, 143, 143);
+  font-size: 14px;
+}
+
+.ready {
+  background-color: #ff9100;
+}
+
+.remove {
+  background-color: red;
+}
+
+.todo-options {
+  display: none;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo-list {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.filter select {
+  width: 250%;
+}
+
+.status {
+  margin-right: 40%;
+}
+
+.status p {
+  margin-left: 5%;
+}
